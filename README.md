@@ -1,2 +1,1 @@
-# codingAF.github.io
-github.page
+Hi there!
