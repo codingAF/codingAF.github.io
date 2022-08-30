@@ -1,3 +1,43 @@
 body {
-    background-color: aqua;
+    background-color: rgb(245, 235, 222);
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(1, 12, 12);
+}
+
+.menu li {
+    float: left;
+}
+
+li a {
+    border: 1px solid black;
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* hover  permite cambiar el estilo cuando me posiciono en el elemento */
+
+a:hover {
+    background-color: burlywood;
+}
+
+body {
+    margin: 0;
+}
+
+.contenido {
+    padding-left: 15px;
+    background-color: rgb(245, 235, 222);
+}
+
+.active {
+    border: 2px solid darkgrey;
 }
